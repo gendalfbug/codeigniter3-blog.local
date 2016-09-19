@@ -15,4 +15,8 @@ class Template extends MY_Controller
         $this->load->view('Template/admin_template_v',$data);
     }
 
+    function call_template($data){
+        $this->load->view('Template/Template',$data);
+    }
+
 }
